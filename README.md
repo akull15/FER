@@ -16,13 +16,6 @@ A deep learning-based **real-time facial emotion recognition system** using CNNs
 - **Classes (7):** Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 
 ---
-
-## ⚙️ Requirements
-Install the required Python libraries:
-
-```bash
-pip install numpy pandas tensorflow opencv-python matplotlib
-
 ## ⚙️ How It Works
 
 1. **Data Preprocessing:**
@@ -53,3 +46,11 @@ pip install numpy pandas tensorflow opencv-python matplotlib
    - OpenCV detects faces in real-time via webcam.
    - Detected faces are processed and classified into one of 7 emotion categories.
    - The predicted emotion and confidence are overlaid on the video feed.
+
+## ⚙️ Requirements
+Install the required Python libraries:
+
+```bash
+   pip install numpy pandas tensorflow opencv-python matplotlib
+   
+
